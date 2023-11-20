@@ -39,7 +39,7 @@ class pacientes extends conexion {
     public function post($json){
         $_respuestas = new respuestas;
         $datos = json_decode($json,true);
-
+    
         if(!isset($datos['token'])){
                 return $_respuestas->error_401();
         }else{
