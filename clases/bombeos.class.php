@@ -54,6 +54,8 @@ class bombeos extends conexion {
                     $this->humedad_inactivacion = $datos['humedad_inactivacion'];
                     $resp = $this->insertarBombeo();
                     if($resp){
+                        
+            echo("Insertado!!");
                         $respuesta = $_respuestas->response;
                         $respuesta["result"] = array(
                             "id_bombeo" => $resp
