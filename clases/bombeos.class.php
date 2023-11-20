@@ -11,6 +11,7 @@ class bombeos extends conexion {
     private $tiempo_riego = "tiempo_riego";
     private $humedad_activacion = "humedad_activacion";
     private $humedad_inactivacion = "humedad_inactivacion";
+    private $token = "";
 
     public function listaBombeos($pagina = 1){
         $inicio = 0;
@@ -42,6 +43,8 @@ class bombeos extends conexion {
                 if(!isset($datos['id_usuario']) || !isset($datos['id_cultivo']) || !isset($datos['fecha']) || !isset($datos['hora']) || !isset($datos['tiempo_riego']) || !isset($datos['humedad_activacion']) || !isset($datos['humedad_inactivacion'])){
                     return $_respuestas->error_400();
                 }else{
+                    
+                echo("token encontrado!");
                     $this->id_usuario = $datos['id_usuario'];
                     $this->id_cultivo = $datos['id_cultivo'];
                     $this->fecha = $datos['fecha'];
@@ -56,7 +59,8 @@ class bombeos extends conexion {
                             "id_bombeo" => $resp
                         );
                         return $respuesta;
-                    }else{
+                    }else{}
+                        echo("Error al insertar encontrado!");
                         return $_respuestas->error_500();
                     }
                 }
