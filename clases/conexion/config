@@ -1,0 +1,9 @@
+{
+    "conexion":{
+        "server" : "localhost",
+        "user" : "instante_riego_adm",
+        "password" : "hxQ.w^a#oko$*",
+        "database" : "instante_sistema_riego",
+        "port": "3306"
+    }
+}

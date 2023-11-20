@@ -1,0 +1,60 @@
+[14-Nov-2023 17:52:37 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'instante_riego_adm'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[14-Nov-2023 17:53:03 America/Bogota] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[14-Nov-2023 17:53:03 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[14-Nov-2023 17:53:52 America/Bogota] PHP Warning:  Packets out of order. Expected 0 received 80. Packet size=5526600 in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[14-Nov-2023 17:53:52 America/Bogota] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[14-Nov-2023 17:53:52 America/Bogota] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=4725 in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[14-Nov-2023 17:53:52 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[14-Nov-2023 17:54:25 America/Bogota] PHP Warning:  Packets out of order. Expected 0 received 80. Packet size=5526600 in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[14-Nov-2023 17:54:25 America/Bogota] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[14-Nov-2023 17:54:25 America/Bogota] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=4725 in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[14-Nov-2023 17:54:25 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[14-Nov-2023 17:55:59 America/Bogota] PHP Warning:  Packets out of order. Expected 0 received 80. Packet size=5526600 in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[14-Nov-2023 17:55:59 America/Bogota] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[14-Nov-2023 17:55:59 America/Bogota] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=8864 in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[14-Nov-2023 17:55:59 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[14-Nov-2023 17:57:06 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'instante_riego_adm'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[14-Nov-2023 17:57:50 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'instante_riego_adm'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[14-Nov-2023 17:58:34 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'instante_riego_adm'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[14-Nov-2023 18:35:27 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'instante_riego_adm'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[14-Nov-2023 19:23:42 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'instante_riego_adm'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[15-Nov-2023 07:43:15 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'instante_riego_adm'@'host41.latinoamericahosting.com' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[15-Nov-2023 07:43:33 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'instante_riego_adm'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[15-Nov-2023 07:50:22 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'instante_riego_adm'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[15-Nov-2023 08:15:38 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'cpses_inaqg0xea2'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[15-Nov-2023 08:16:24 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'cpses_inaqg0xea2'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[15-Nov-2023 08:16:24 America/Bogota] PHP Notice:  Use of undefined constant connect_errno - assumed 'connect_errno' in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 27
+[15-Nov-2023 08:16:59 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'cpses_inaqg0xea2'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[15-Nov-2023 08:16:59 America/Bogota] PHP Notice:  Undefined variable: connect_errno in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 27
+[15-Nov-2023 08:19:00 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'cpses_inaqg0xea2'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[15-Nov-2023 08:19:00 America/Bogota] PHP Notice:  Undefined variable: connect_errno in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 27
+[15-Nov-2023 08:19:00 America/Bogota] PHP Fatal error:  Uncaught Error: Cannot access empty property in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php:27
+Stack trace:
+#0 /home/instante/sistema-riego.instanteslicapevistas.com.co/auth.php(5): conexion->__construct()
+#1 {main}
+  thrown in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 27
+[15-Nov-2023 08:19:05 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'cpses_inaqg0xea2'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[15-Nov-2023 08:19:05 America/Bogota] PHP Notice:  Undefined variable: connect_errno in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 27
+[15-Nov-2023 08:19:05 America/Bogota] PHP Fatal error:  Uncaught Error: Cannot access empty property in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php:27
+Stack trace:
+#0 /home/instante/sistema-riego.instanteslicapevistas.com.co/auth.php(5): conexion->__construct()
+#1 {main}
+  thrown in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 27
+[15-Nov-2023 08:19:24 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'cpses_inaqg0xea2'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[15-Nov-2023 08:19:24 America/Bogota] PHP Notice:  Undefined property: auth::$connect_errno in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 27
+[15-Nov-2023 08:19:55 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'cpses_inaqg0xea2'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[15-Nov-2023 08:19:55 America/Bogota] PHP Notice:  Use of undefined constant connect_errno - assumed 'connect_errno' in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 27
+[15-Nov-2023 08:20:12 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'cpses_inaqg0xea2'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[15-Nov-2023 08:20:12 America/Bogota] PHP Notice:  Undefined variable: connect_errno in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 27
+[15-Nov-2023 08:20:35 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'cpses_inaqg0xea2'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[15-Nov-2023 08:20:35 America/Bogota] PHP Notice:  Use of undefined constant conexion - assumed 'conexion' in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 27
+[15-Nov-2023 08:25:19 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'mysql' not found in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php:24
+Stack trace:
+#0 /home/instante/sistema-riego.instanteslicapevistas.com.co/auth.php(5): conexion->__construct()
+#1 {main}
+  thrown in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[15-Nov-2023 08:26:59 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'cpses_inaqg0xea2'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[15-Nov-2023 08:27:19 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'instante_riego_adm'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[15-Nov-2023 08:30:07 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'instante_riego_adm'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[15-Nov-2023 09:01:44 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'instante_riego_adm'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
+[15-Nov-2023 09:07:02 America/Bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'instante_riego_adm'@'localhost' (using password: YES) in /home/instante/sistema-riego.instanteslicapevistas.com.co/clases/conexion/conexion.php on line 24
