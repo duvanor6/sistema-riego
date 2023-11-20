@@ -8,11 +8,11 @@ $_bombeos = new bombeos;
 
 if($_SERVER['REQUEST_METHOD'] == "GET"){
 
-    if(isset($_GET["page"])){
+    if(isset($_GET["page"])){ 
         $pagina = $_GET["page"];
         $listaBombeos = $_bombeos->listaBombeos($pagina);
         header("Content-Type: application/json");
-        echo json_encode($listaPalistaBombeoscientes);
+        echo json_encode($listaBombeos);
         http_response_code(200);
     }else if(isset($_GET['id'])){
         $bombeoId = $_GET['id'];
