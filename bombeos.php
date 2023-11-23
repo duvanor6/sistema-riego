@@ -6,8 +6,8 @@ $_respuestas = new respuestas;
 $_bombeos = new bombeos;
 
 
-if($_SERVER['REQUEST_METHOD'] == "GET"){
-
+if($_SERVER['REQUEST_METHOD'] == "GET"){    
+    
     if(isset($_GET["page"])){ 
         $pagina = $_GET["page"];
         $listaBombeos = $_bombeos->listaBombeos($pagina);

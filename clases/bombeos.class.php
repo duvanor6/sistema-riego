@@ -3,6 +3,7 @@ require_once "conexion/conexion.php";
 require_once "respuestas.class.php";
 
 class bombeos extends conexion {
+    private $id_bombeo = "";
     private $table = "Bombeos";
     private $id_usuario = "id_usuario";
     private $id_cultivo = "id_cultivo";
@@ -20,13 +21,14 @@ class bombeos extends conexion {
             $inicio = ($cantidad * ($pagina - 1)) +1;
             $cantidad = $cantidad * $pagina;
         }
-        $query = "SELECT * FROM ". $this->table . "limit $inicio,$cantidad";
+        $query = "SELECT * FROM " . $this->table . " LIMIT $inicio, $cantidad";
         $datos = parent::obetenerDatos($query);
+        echo $datos;
         return $datos;
     }
 
     public function obtenerBombeo($id){
-        $query = "SELECT * FROM ". $this->table . "WHERE ID_Bombeo = '$id'";
+        $query = "SELECT * FROM " . $this->table . " WHERE ID_Bombeo = '$id'";
         return parent::obtenerDatos($query);
     }
 
@@ -34,7 +36,7 @@ class bombeos extends conexion {
         $_respuestas = new respuestas;
         $datos = json_decode($json,true);
 
-        if(!isset[$datos['token']]){
+        if(!isset($datos['token'])){
             return $_respuestas->error_401();
         }else{
             $this->token = $datos['token'];
@@ -53,15 +55,14 @@ class bombeos extends conexion {
                     $this->humedad_activacion = $datos['humedad_activacion'];
                     $this->humedad_inactivacion = $datos['humedad_inactivacion'];
                     $resp = $this->insertarBombeo();
-                    if($resp){
-                        
-            echo("Insertado!!");
+                    if($resp){                        
+                        echo("Insertado!!");
                         $respuesta = $_respuestas->response;
                         $respuesta["result"] = array(
                             "id_bombeo" => $resp
                         );
                         return $respuesta;
-                    }else{}
+                    }else{
                         echo("Error al insertar encontrado!");
                         return $_respuestas->error_500();
                     }
@@ -70,8 +71,8 @@ class bombeos extends conexion {
                 return $_respuestas->error_401("El token que envio es invalido o ha caducado");
             }
         }
+    
     }
-
     private function insertarBombeo(){
         $query = "INSERT INTO ". $this->table . " (id_usuario,id_cultivo,fecha,hora,tiempo_riego,humedad_activacion,humedad_inactivacion) values ('" . $this->id_usuario . "','" . $this->id_cultivo . "','" . $this->fecha . "','" . $this->hora . "','" . $this->tiempo_riego . "','" . $this->humedad_activacion . "','" . $this->humedad_inactivacion . "')";
 
@@ -135,7 +136,7 @@ class bombeos extends conexion {
         $_respuestas = new respuestas;
         $datos = json_decode($json,true);
 
-        if(!isset)($datos['toke'])){
+        if(!isset($datos['token'])){
             return $_respuestas->error_401();
         }else{
             $this->token = $datos['token'];
@@ -173,7 +174,7 @@ class bombeos extends conexion {
     }
 
     private function buscarToken(){
-        $query = "SELECT TokenId,IdUsuario,Estado FROM usuarios_token WHERE Token = '" . $this->token . "' AND Estado = 'Activo'";
+        $query = "SELECT  TokenId,UsuarioId,Estado from usuarios_token WHERE Token = '" . $this->token . "' AND Estado = 'Activo'";
         $resp = parent::obtenerDatos($query);
         if($resp){
             return $resp;
